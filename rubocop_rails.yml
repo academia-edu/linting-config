@@ -9,19 +9,40 @@ Style/SymbolProc:
     - respond_to
 
 ## Configuration for Rubocop Rails cops
+Rails/ActionControllerTestCase:
+  Enabled: true
+
 Rails/ActiveRecordAliases:
+  Enabled: true
+
+Rails/ActiveRecordOverride:
   Enabled: true
 
 Rails/ActiveSupportAliases:
   Enabled: true
 
+Rails/ActiveSupportOnLoad:
+  Enabled: true
+
+Rails/AddColumnIndex:
+  Enabled: true
+
+Rails/AfterCommitOverride:
+  Enabled: true
+
 Rails/ApplicationJob:
+  Enabled: true
+
+Rails/ArelStar:
   Enabled: true
 
 Rails/AssertNot:
   Enabled: true
   Include:
   - "**/test/**/*"
+
+Rails/AttributeDefaultBlockValue:
+  Enabled: true
 
 Rails/BulkChangeTable:
   Enabled: true
@@ -32,7 +53,16 @@ Rails/BulkChangeTable:
   Include:
   - db/migrate/*.rb
 
+Rails/CreateTableWithTimestamps:
+  Enabled: true
+
 Rails/DelegateAllowBlank:
+  Enabled: true
+
+Rails/DotSeparatedKeys:
+  Enabled: true
+
+Rails/DuplicateScope:
   Enabled: true
 
 Rails/EnumHash:
@@ -44,10 +74,28 @@ Rails/EnumUniqueness:
 Rails/EnvironmentComparison:
   Enabled: true
 
+Rails/FindBy:
+  Enabled: true
+
+Rails/HttpPositionalArguments:
+  Enabled: true
+
+Rails/MailerName:
+  Enabled: true
+
+Rails/MigrationClassName:
+  Enabled: true
+
 Rails/NotNullColumn:
   Enabled: true
 
 Rails/Pick:
+  Enabled: true
+
+Rails/RedundantAllowNil:
+  Enabled: true
+
+Rails/RedundantReceiverInWithOptions:
   Enabled: true
 
 Rails/RefuteMethods:
@@ -58,11 +106,53 @@ Rails/RefuteMethods:
 Rails/RelativeDateConstant:
   Enabled: true
 
+Rails/RenderInline:
+  Enabled: true
+
+Rails/RenderPlainText:
+  Enabled: true
+
 Rails/ReversibleMigration:
+  Enabled: true
+
+Rails/ReversibleMigrationMethodDefinition:
+  Enabled: true
+
+Rails/RootJoinChain:
+  Enabled: true
+
+Rails/SafeNavigationWithBlank:
   Enabled: true
 
 Rails/ScopeArgs:
   Enabled: true
 
+Rails/ThreeStateBooleanColumn:
+  Enabled: true
+
+Rails/TimeZoneAssignment:
+  Enabled: true
+
+Rails/ToFormattedS:
+  Enabled: true
+
+Rails/ToSWithArgument:
+  Enabled: true
+
+Rails/TopLevelHashWithIndifferentAccess:
+  Enabled: true
+
+Rails/UniqBeforePluck:
+  Enabled: true
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: true
+
 Rails/UnknownEnv:
+  Enabled: true
+
+Rails/UnusedIgnoredColumns:
+  Enabled: true
+
+Rails/WhereMissing:
   Enabled: true
