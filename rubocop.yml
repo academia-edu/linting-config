@@ -120,3 +120,12 @@ Style/StructInheritance:
 
 Style/SymbolProc:
   Enabled: true
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
