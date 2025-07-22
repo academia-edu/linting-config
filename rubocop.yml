@@ -81,6 +81,9 @@ Layout/EndOfLine:
 Layout/ExtraSpacing:
   Enabled: true
 
+Layout/IndentationConsistency:
+  Enabled: true
+
 Layout/IndentationStyle:
   Enabled: true
 
