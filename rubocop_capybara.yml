@@ -1,4 +1,4 @@
-require:
+plugin:
   - rubocop-capybara
 
 Capybara/CurrentPathExpectation:

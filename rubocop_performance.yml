@@ -1,4 +1,4 @@
-require:
+plugin:
   - rubocop-performance
 
 Performance/Caller:
