@@ -41,6 +41,9 @@ Rails/EnumHash:
 Rails/EnumUniqueness:
   Enabled: true
 
+Rails/EnumSyntax:
+  Enabled: true
+
 Rails/EnvironmentComparison:
   Enabled: true
 
