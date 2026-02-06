@@ -69,7 +69,6 @@ Rails/ScopeArgs:
 
 Rails/DeprecatedActiveModelErrorsMethods:
   Enabled: true
-  Severity: error
 
 Rails/UnknownEnv:
   Enabled: true
