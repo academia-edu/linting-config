@@ -67,5 +67,8 @@ Rails/ReversibleMigration:
 Rails/ScopeArgs:
   Enabled: true
 
+Rails/DeprecatedActiveModelErrorsMethods:
+  Enabled: true
+
 Rails/UnknownEnv:
   Enabled: true
